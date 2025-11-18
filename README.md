@@ -31,11 +31,11 @@ This comprehensive C++ application is designed to manage airport ground operatio
 ```bash
 g++ -o airport_system main.cpp flight.cpp crew.cpp equipment.cpp task.cpp utilities.cpp globals.cpp
 
-Usage
+**Usage**
 
 Compile the program using the instructions above.
 
-Run the executable:
+**Run the executable:**
 ./airport_system
 
 Using Makefile:
@@ -46,7 +46,7 @@ SOURCES = main.cpp flight.cpp crew.cpp equipment.cpp task.cpp utilities.cpp glob
 
 
 
-Navigate through the menu-driven interface:
+**Navigate through the menu-driven interface:**
 
 Flight Management: Add and manage flights.
 Crew Management: Handle crew members and availability.
@@ -55,7 +55,7 @@ Task Management: Assign and complete tasks
 File Management: Save and load system data.
 
 
-airport-system/
+**airport-system/**
 ├── README.md          
 ├── main.cpp           
 ├── flight.cpp          
@@ -69,14 +69,14 @@ airport-system/
 └── airport.h           
 
 
-🎯 Input Validation
+**🎯 Input Validation**
 
 Integer input validation with range checking.
 String input validation with length limits.
 Duplicate ID prevention.
 Yes/No input handling.
 
-🔄 Dynamic Memory Management
+**🔄 Dynamic Memory Management**
 
 The system uses dynamic memory allocation for:
 Flight information arrays.
@@ -85,7 +85,7 @@ Equipment inventory.
 Task assignments.
 Automatic memory cleanup on program exit.
 
-📊 Sample Data
+**📊 Sample Data**
 
 Flight Status Options:
 SCHEDULED
@@ -94,20 +94,20 @@ LANDED
 CANCELLED
 DELAYED
 
-ID Ranges:
+**ID Ranges:**
 
 Crew IDs: 100–999
 Equipment IDs: 100–9999
 Task IDs: 1–9999
 Flight IDs: Exactly 6 characters
 
-🐛 Error Handling
+**🐛 Error Handling**
 
 Input validation for all user interactions.
 File operation error checking.
 Memory allocation safety.
 Graceful program termination.
 
-📄 License
+**📄 License**
 
 Academic Project – Educational Use.
