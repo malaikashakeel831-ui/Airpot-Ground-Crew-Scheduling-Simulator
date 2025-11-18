@@ -32,13 +32,6 @@ CXXFLAGS = -Wall -Wextra -std=c++11
 TARGET = airport_system
 SOURCES = main.cpp flight.cpp crew.cpp equipment.cpp task.cpp utilities.cpp globals.cpp
 
-$(TARGET): $(SOURCES)
-	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SOURCES)
-
-clean:
-	rm -f $(TARGET)
-
-.PHONY: clean
 
 
 ## 🎮 Usage
