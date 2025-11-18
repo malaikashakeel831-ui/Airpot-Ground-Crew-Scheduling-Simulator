@@ -1,6 +1,5 @@
 # Airpot-Ground-Crew-Scheduling-Simulator
 A fully dynamic, pointer-based C++ console application that manages Flights, Crew, and Equipment with complete binary file saving/loading, flexible data entry, and fully manual memory handling.
-# Airport Ground Crew Scheduling Simulator
 
 A comprehensive C++ application for managing airport ground operations including flight scheduling, crew management, equipment tracking, and task assignments.
 
